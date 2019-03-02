@@ -1,0 +1,13 @@
+body{
+	background: black;
+}
+#but{
+	background: red;
+	width: 100px;
+	height: 50px;
+	border: none;
+	border-radius: 10px; 
+}
+#but:hover{
+	background: green;
+}
