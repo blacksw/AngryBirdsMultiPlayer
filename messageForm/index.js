@@ -4,7 +4,7 @@ function readInput(){
 	var input = document.getElementById('messageArea');
 	var message = document.createElement("p");
 
-	document.body.appendChild(message);
+	document.body.children[1].appendChild(message);
 	
 	message.setAttribute("class","message");
 	message.innerHTML = input.value;
