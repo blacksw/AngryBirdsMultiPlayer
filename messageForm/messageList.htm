@@ -5,12 +5,15 @@
 </head>
 <link rel="stylesheet" type="text/css" href="style.css">
 <body>
+
 	<div id="mainContainer">
-		<button id="sendButton" onclick="readInput()">send</button>
-		<input type="" name="messages" id="messageArea">
-		<div id="roomsContainer"></div>
+		<button id="sendButton" onclick="readInput()" >send</button>
+		<input type="" name="messages" id="messageArea" onkeydown="readInputkey()">
+		<div id="roomsContainer">
+			<button id="login" onclick="location.href = 'my_bootstrap_form.htm';">Log In</button>
+		</div>
 	</div>
-	<div style="width: 800px;height: 600px;background: yellow;overflow: auto;position: absolute;left: 200px;">
+	<div style="width: 91%;height: 90%;	overflow: auto;position: absolute;left: 130px;opacity: transparent;">
 
 	</div>	
 

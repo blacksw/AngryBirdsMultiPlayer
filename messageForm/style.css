@@ -2,6 +2,22 @@ body{
 	background: black;
 	padding: 5px;
 }
+#login{
+	position: absolute;
+	top: 8px;
+	left: 8px;
+	width: 5.5%;
+	height: 5%;	
+	border: none;
+	border-radius: 3;
+	background: #c7dbdc;
+}
+
+#login:hover{
+	transition: 1s;
+	background: #a0afaf;
+}
+
 #mainContainer{
 	background: #c7dbdc;
 	width: 100%;
@@ -13,33 +29,36 @@ body{
 #roomsContainer{
 	background: #242633;
 	height: 100%;
-	width: 100px;
+	width: 7%;
 }
 #messageArea {
 	background: #242633;
 	bottom: 10px;
 	width: 80%;
+	max-width: 1300px;
+	min-width: 100px;
 	height: 40px;
 	color: #c7dbdc;
 	border: none;
 	position: absolute;
 	border-radius: 5px;
-	left: calc(100px + 30px);
-	right: calc(100px + 70px);
+	box-sizing: border-box;
+	margin-right: 10%;
+	margin-left: 8%;
 }
+
 .message {
 	background: #242633;
-	border-radius: 10px;
-	padding: 5px;
+	right: 30px;
+	padding: 10px;
 	color: #c7dbdc;
 	position: absolute;
 	text-align: center;
-	transform: : translateY(300px);
-	left: calc(100px + 30px);
+
 }
 #sendButton{
 	background: #242633;
-	width: 70px;
+	width: 9%;
 	height: 40px;
 	color: #c7dbdc;
 	border: none;
@@ -49,5 +68,6 @@ body{
 	border-radius: 10px; 
 }
 #sendButton:hover{
-	background: green;
+	transition: 1s;
+	background: #0e0f14;
 }
