@@ -18,13 +18,23 @@ body{
 #messageArea {
 	background: #242633;
 	bottom: 10px;
-	width: 75%;
+	width: 80%;
 	height: 40px;
+	color: #c7dbdc;
 	border: none;
 	position: absolute;
 	border-radius: 5px;
 	left: calc(100px + 30px);
 	right: calc(100px + 70px);
+}
+#message {
+	background: #242633;
+	border-radius: 10px;
+	width: 100px;
+	height: 50px;
+	color: #c7dbdc;
+	position: absolute;
+	left: calc(100px + 30px);;
 }
 #sendButton{
 	background: #242633;
