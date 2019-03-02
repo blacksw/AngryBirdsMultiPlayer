@@ -27,14 +27,15 @@ body{
 	left: calc(100px + 30px);
 	right: calc(100px + 70px);
 }
-#message {
+.message {
 	background: #242633;
 	border-radius: 10px;
-	width: 100px;
-	height: 50px;
+	padding: 5px;
 	color: #c7dbdc;
 	position: absolute;
-	left: calc(100px + 30px);;
+	text-align: center;
+	transform: : translateY(300px);
+	left: calc(100px + 30px);
 }
 #sendButton{
 	background: #242633;
