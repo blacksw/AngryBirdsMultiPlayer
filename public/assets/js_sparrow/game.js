@@ -7,7 +7,7 @@ var shots =15;
 var kills = 0;
 var kill = document.querySelector('#kills');
 var shot = document.querySelector('#shots');
-
+console.log(shot == null);
 function shoot(){
 
 var change_bird = Math.round((Math.random()*2));
@@ -31,7 +31,7 @@ function end(){
 
        function soundClick(){
   var audio = new Audio(); // Создаём новый элемент Audio
-  audio.src = 'gunshot.wav'; // Указываем путь к звуку "клика"
+  audio.src = '/assets/gunshot.wav'; // Указываем путь к звуку "клика"
   audio.autoplay = true; // Автоматически запускаем
 }
 
@@ -46,7 +46,6 @@ function count(){
  		}
     shot.innerHTML = shots + " ";	
 
-	console.log(onclick == b.getLeft());
 }
 
 // функцией shoot() при 1) найти птицу 2)setTimeout(function(){}) -> removeChild

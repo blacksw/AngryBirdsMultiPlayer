@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title></title>
-    <link rel="stylesheet" href="css_sparrow/map.css" >
-    <link rel="stylesheet" href="css_sparrow/bird.css" >
+    {{& index_styles}}
+    {{& index_images}}
   </head>
   <body>
     <div id="map" onclick="count();" >
@@ -15,7 +15,7 @@
     </div>
     <div>
     </div>
-    <script type="text/javascript" src="js_sparrow/bird.js"></script>
-        <script type="text/javascript" src="js_sparrow/game.js"></script>
   </body>
+  {{& index_scripts}}
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </html>
